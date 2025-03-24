@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+/* navbar */
+
+.navbar
+{
+    
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(119, 116, 116,0.5);
+    position: fixed;  /* Makes the navbar fixed at the top */
+    top: 0;           /* Positions it at the top of the page */
+    left: 0;   
+    width: 100%;      /* Ensures the navbar spans the full width of the screen */
+     background-color: #fff;  /*Optional: Add a background color to ensure visibility*/
+    z-index: 1000;   /* Makes sure it stays on top of other elements so that the priority of overlapping remains always high*/
+
+    
+
+}
+.navlogo
+{
+    height:50px;
+    width:180px;
+    
+    display:flex;
+
+    align-items: center;
+   
+}
+#logo
+{
+    
+    height: 50px;
+    width:50px;
+   
+    background-image:url("images.png");
+    background-size: cover;
+    
+}
+#logotext
+{   padding-left:10px;
+    font-size:22px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.language
+{
+  display: flex;
+  align-items: center;
+  color: #333;
+  position:relative;
+}
+.language i{
+    position:absolute;
+    right:10px;
+}
+/* signup div */
+
+.signupbox
+{   
+    display:flex;
+    flex-direction: column;
+   
+    width:421.2px;
+    justify-self: center;
+    gap:25px;
+    /* background-color: yellow; */
+    margin-top: 100px;
+   
+}
+
+#sign
+{
+    display:flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+#workemail
+{
+    font-weight: bold;
+}
+.accounts
+{
+    border:2px solid rgb(119, 116, 116);
+    padding:14px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;  
+    position: relative;  
+}
+.or{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.or hr{
+    
+    flex:1;
+    height:0.1px;
+    margin :0 10px;
+}
+.email{
+  
+  width: 100%;
+  text-align: center;
+ line-height:50px;
+}
+.continue
+{
+    line-height:50px;
+    width:100%;
+    border-radius: 5px;
+    border:none;
+    background-color: #0061FE;
+    font-size:18px;
+    font-weight: bold;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer
+{
+    margin:50px 150px;
+    
+}
+.anchor{
+    text-decoration: none;
+    font-size:18px;
+    margin-right:15px;
+}
+.accounts i{
+    position:absolute;
+    left:2px;
+}
+#hr
+{
+    width:150px;
+    margin-left:150px;
+}
+.language2
+{
+    margin:25px 150px;
+}
+.select{
+    border: none;
+}
